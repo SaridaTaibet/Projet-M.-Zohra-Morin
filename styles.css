@@ -3,12 +3,15 @@ h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     margin-left: 3px;
     text-shadow: 5px 5px 5px #aaa;
-    color: rgb(223, 167, 166);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+    /*color: black;*/
     text-align: center;
 }
 
-.test-piou{
-   color: #0479c9;
+.test-piou {
+    color: #0479c9;
     margin-right: 1rem;
 
 }
@@ -26,8 +29,26 @@ h2 {
     width: 100%;
 }
 
-.text-center {
-    padding-bottom: 4rem;
+
+.text-1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 7rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.text-2 {
+    margin-left: 7rem;
+}
+.text-3 {
+    font-family: 'Satisfy', cursive;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+.text-4 {
+    font-family: 'Satisfy', cursive;
+    margin-top: 7rem;
+
 }
 
 .text-center-1 {
@@ -43,12 +64,6 @@ h2 {
     padding-left: 5rem;
 }
 
-.text-2 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-family: 'Fira Sans', sans-serif;
-}
-
 
 .text6 {
     padding-top: 2rem;
@@ -56,85 +71,58 @@ h2 {
     color: black;
 
 }
+
 .texte-7 {
 
     padding-top: 3rem;
     text-align: left;
 
 }
-
-.image-basilique {
-    margin-bottom: 2px;
-}
-
-.image-bayeux {
-    margin-bottom: 2px;
-}
-
-.image-graph-center {
+.image-graph {
     padding-bottom: 3rem;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
+}
+.imgage-mont {
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+.row-bloc-1 {
+    padding-top: 2rem;
+}
+.photo {
+    width: 495px;
+    height: 474px;
 }
 
-.image-oser {
-    width: 180px;
-    height: 240px;
-}
-
-.image-mont {
-    padding-top: 1rem;
-    margin-left: 1rem;
-    width: 100%;
-    height: 50%;
-}
-
-.image-donner {
-    padding-top: 1rem;
-
-    width: 300px;
-    height: 250px;
-}
-
-.image-donner-1 {
-    padding-left: 1rem;
-    padding-top: 1rem;
-    width: 100px;
-    height: 50px;
-}
-
-.image-hibou {
-    padding-left: 1px;
-    padding-top: 1rem;
-    margin-left: 1rem;
-}
-
-.image-auge {
-    padding-left: 2px;
-    padding-bottom: 1rem;
-    width: 350px;
-    height: 250px;
-}
-.photo{
-    width: 474px;
-    height: 674px;
-}
 .navbar-brand {
     margin-left: 2rem;
 }
-.background {
-    background: url("assets/mont_saint_michel_maree67_jds-1.jpg");
-    margin-top: 3px;
-    padding-top: 20rem;
+
+.background-img-1 {
+    background: url("assets/DONNER_LA_MAIN5-1.jpg");
+    background-size: cover;
+    padding: 150px;
+    margin-left: -5rem;
+
+}
+.background-img-2 {
+    background: url("assets/EQUIPE_SPORT_FILLES.jpg");
+    background-size: cover;
+    padding: 150px;
+    margin-left: 2rem;
+
+}
+.background-img-3 {
+    background: url("assets/mont_saint_michel_maree67_jds.jpg");
     background-size: cover;
     text-align: center;
 }
+
+
 .TEXT {
     font-size: 20px;
 
     font-family: 'Bad Script', cursive;
-     margin: 9px 9px -57px -57px;
-}
-.background-image {
-    padding-right: 2rem;
+    margin: 9px 9px -57px -57px;
 }
