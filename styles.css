@@ -2,10 +2,9 @@
 h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     margin-left: 3px;
+    color : black;
     text-shadow: 5px 5px 5px #aaa;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
     text-align: center;
 }
 
@@ -30,10 +29,17 @@ h2 {
 .navbar-brand {
     margin-left: 2rem;
 }
+.text-left-1 {
+    font-family: 'Merriweather', serif;
+}
 
+.text-action{
+    padding-top: 5%;
+    padding-left: 15%;
+}
 
 .text-1 {
-    padding-top: 4rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
     margin-left: 7rem;
     font-family: 'Fira Sans', sans-serif;
@@ -50,23 +56,24 @@ h2 {
 .text-3-1 {
     font-family: 'Satisfy', cursive;
     margin-left: 1rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .text-3-2 {
     font-family: 'Satisfy', cursive;
     margin-left: 1rem;
+
 }
 
 .text-3-3 {
     font-family: 'Satisfy', cursive;
-    margin-left: -2rem;
-    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-top: 8rem;
 }
 
 .text-3-4 {
     font-family: 'Satisfy', cursive;
-    margin-left: -2rem;
+    margin-left: 4rem;
 }
 
 
@@ -79,18 +86,13 @@ h2 {
     margin-top: 7rem;
 }
 
-.text-center-1 {
-    margin-top: -2rem;
-    margin-left: 9rem;
+.text-acc {
+    margin-top: 4rem;
+
 }
 
 .text-center-2 {
     margin-left: 9rem;
-}
-.text-mont {
-    font-family: 'Satisfy', cursive;
-    text-align: center;
-    padding-top: 1rem;
 }
 
 
@@ -104,11 +106,10 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .text-laisser {
     margin-top: 3rem;
-
 }
-
 
 .row-text-2 {
     margin-top: 3rem;
@@ -117,23 +118,24 @@ h2 {
 
 .image-donner5-1 {
     width: 250px;
-    height: 250px;
-    margin-left: -4rem !important;
-    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
+    height: 400px;
+    margin-left: 2rem !important;
+
 }
+
 
 .image-equipe {
     width: 250px;
-    height: 250px;
-    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
+    height: 400px;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .image-graph {
     padding-bottom: 3rem;
-    width: 320px;
-    height: 320px;
+    margin-left: 4rem;
+    width: 390px;
+    height: 390px;
 }
 
 .image-bras {
@@ -146,17 +148,16 @@ h2 {
 
 .image-oser {
     margin-top: 2rem;
+    margin-left: 2rem;
     width: 300px;
     height: 250px;
-    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
+
 }
 .image-main-1 {
     margin-top: 2rem;
     width: 300px;
     height: 250px;
-    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
+
 }
 
 .image-rivière {
@@ -177,32 +178,27 @@ h2 {
 .image-saut {
     width: 900px;
     height: 400px;
-   box-shadow: -1px 2px 2px 1px black,
-    -1px 2px 5px black inset;
 }
-
-.background {
-    background: url("assets/mont_saint_michel_maree67_jds-1.jpg");
-    width: 900px;
-    height: 300px;
-    padding-bottom: 3rem;
-    margin-bottom: 2rem;
-    margin-left: 6rem;
-     box-shadow: -1px 2px 2px 1px #0479c9,
-    -1px 2px 5px rgba(83, 251, 255, 0.6);
+.background{
+    background: url("assets/dt143_manche_roches_de_ham_br.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 2rem;
 }
 
 .background-1 {
-    background: url("assets/dt143_manche_roches_de_ham_br.jpg");
+    background: url("assets/RIVIERE_ET_HIBOU.jpg");
     background-size: cover;
-    width: 900px;
-    height: 300px;
-    margin-left: 8rem;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
-    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
-    -1px 2px 5px rgba(0, 0, 255, 0.6) inset;
-
 }
+
+
+
 
 .page-footer {
     margin-top: 4rem;
@@ -223,3 +219,27 @@ h2 {
 .a {
     color : white;
 }
+
+
+.text-seneque {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    75% {
+        font-size: 100%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+

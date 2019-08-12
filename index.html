@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
@@ -38,24 +39,29 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Offres<span class="sr-only">(current)</span></a>
-            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#">Réservations</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tarifs</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#"><u>Réservation professionnel:</u></a>
+                    <a class="dropdown-item" href="#">En individuel</a>
+                    <a class="dropdown-item" href="#">En collectif</a>
+                    <a class="dropdown-item" href="#"><u>Réservation particulier:</u></a>
+                    <a class="dropdown-item" href="#">Enfant à partir de 10ans</a>
+
+                </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Outils
+                    Tarifs
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Videos</a>
-                    <a class="dropdown-item" href="#">Documentation</a>
-                    <a class="dropdown-item" href="#">Informations</a>
+                    <a class="dropdown-item" href="#">Coaching professionnel:</a>
+                    <a class="dropdown-item" href="#">200€/séance 1,5H en individuel</a>
+                    <a class="dropdown-item" href="#">800€/jour en collectif</a>
+                    <a class="dropdown-item" href="#">Coaching de particulier:</a>
+                    <a class="dropdown-item" href="#">50€/séance 1,5H</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -81,74 +87,36 @@
     </div>
 </nav>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/DONNER_LA_MAIN-1.jpg" class="d-block w-100 photo" alt="image">
-            <div class="carousel-caption d-none d-md-block">
-                <p class="text font-weight-bold">Tout est dans la préparation mentale, c'est un travail de réglage. </p>
-                <p class="text font-weight-bold">De votre perception du monde intérieur et extérieur</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/plages-debarquement.jpg" class="d-block w-100 photo" alt="image">
 
-            <div class="carousel-caption d-none d-md-block">
-
-                <p>Le Passé est l'Histoire, le Futur est un Mystère, Aujourd'hui est un Cadeau</p>
-                <h5>Eleanor Roolsevelt</h5>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="assets/ECUREUIL.jpg" class="d-block w-100 photo" alt="image">
-        </div>
-        <div class="carousel-item">
-            <img src="assets/bayeux.jpg" class="d-block w-100 photo" alt="image">
-        </div>
-
-        <div class="carousel-item">
-            <img src="assets/basilique-lisieux.jpg" class="d-block w-100 photo" alt="image">
-        </div>
-        <div class="carousel-item">
-            <img src="assets/pont-normand.jpg" class="d-block w-100 photo" alt="image">
-        </div>
-
-        <div class="carousel-item">
-            <img src="assets/RIVIERE_ET_HIBOU.jpg" class="d-block w-100 photo" alt="image">
-        </div>
-        <div class="carousel-item">
-            <img src="assets/OSER.jpg" class="d-block w-100 photo" alt="image">
-            <div class="carousel-caption d-none d-md-block">
-
-                <p>La vie ce n'est pas attendre que les orages passent</p>
-                <p>C'est d'apprendre à danser sous la pluie</p>
-                <h5>Sénèque</h5>
-            </div>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
 <div class="container-fluid">
+
     <div class="row">
-        <div class="col-sm-10 align-self-center">
-            <h5 class="text-1 text-center">Un coaching bousculant, lieu d'expression et moyen de se distinguer, de
+        <div class="col-sm-12">
+            <div class="background">
+                <h5 class="text-seneque">La vie ce n'est pas attendre que les orages passent<br>C'est d'apprendre à
+                    danser sous la pluie<br>
+                </h5>
+                <h4 class="text-seneque">Sénèque</h4>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-sm-10 text-justify">
+            <h5 class="text-1 text-justify">Un coaching bousculant, lieu d'expression et moyen de se distinguer, de
                 s'affirmer dans sa singularité, être différent comme le sont les autres avec qui vous travaillez, vous
-                vivez en symbiose
-                entre la personne coachée, son mode de visualisation et la coache. Tout est dans la préparation
+                vivez en symbiose entre la personne coachée, son mode de visualisation et la coache. Tout est dans la
+                préparation
                 mentale, c'est un travail de réglage. De votre perception du monde intérieur et extérieur.</h5>
         </div>
     </div>
 
-    <div class="row text-1">
-        <div class="col-sm-6 align-self-center">
-            <h5 class="text-left "><u>Objectif dans les processus proposés</u></h5>
+    <div class="row ">
+        <div class="col-sm-6 text-justify text-action">
+            <h5 class="text-left-1 "><u>Objectif dans les processus proposés</u></h5>
             <h6 class="text-left">Tout est dans la préparation mentale, c'est un travail de réglage:</h6>
             <h6 class="text-left">- De l'image (perception de soi-même)</h6>
             <h6 class="text-left">- De la télécommande qui est dans vos mains</h6>
@@ -160,22 +128,26 @@
             <img class="image-graph" src="assets/graph_coaching_final.png" alt="image">
         </div>
     </div>
-    <div class="col-sm-12 align-center">
-        <div class="background rounded mx-auto d-block">
-            <div class="text-mont">
-                <h5>Tout est dans la préparation mentale, c'est un travail de réglage</h5>
-            </div>
+    <div class="row text-justify">
+        <div class="col-sm-10">
+            <h5 class="text-beoc">Choisissez votre coaching</h5>
+            <p> Coaching BEOC : Bousculant, Ethique, Objectifs Concrets. POUR, Un bien-être durable, dans le respect de
+                l'écologie </p>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="background-1">
+                <h6 class="text-roosevelt">Le passé est l'Histoire, le futur est un mystère, aujourd'hui est un
+                    cadeau</h6>
+                <h5>Eleanor Roosevelt</h5>
+            </div>
+        </div>
+    </div>
     <div class="row text-2 align-center">
-        <div class="col-sm-4 ">
-            <h5>Action de coaching</h5>
-            <p> Améliorer ses relations, atteindre des objectifs, développer son potentiel,
-                développer sa créativité, conduire le changement, réussir sa prise de poste, améliorer son éfficacité
-                professionnelle, apprendre à mieux communiquer, apprendre à gérer son temps et les priorités.
-                Un bien être durable, Dans le respect de l'écologie. C'est-à-dire pour votre bien et
-                pour le bien des autres.</p>
+        <div class="col-sm-4">
+            <img src="assets/DONNER_LA_MAIN-1.jpg" class="image-main-1" alt="image">
         </div>
         <div class="col-sm-4">
             <h6 class="align-self-center text-3-1"><strong>Coaching Individuel:</strong></h6>
@@ -183,21 +155,10 @@
                 projet,<br>
                 de leader de transformation...</strong></p>
         </div>
-        <div class="col-sm-4">
-            <img src="assets/DONNER_LA_MAIN5-1.jpg" class="image-donner5-1 rounded mx-auto d-block" alt="image">
-        </div>
     </div>
-    <div class="row text-2">
-        <div class="col-sm-4 ">
-            <h5 class="text-beoc">Choisissez votre coaching</h5>
-            <h6>Coaching BEOC</h6>
-            <p>- Bousculant <br>- Ethique<br>- Objectifs Concrets</p>
-            <h6>POUR :</h6>
-            <p>- Un bien-être durable<br>- Dans le respect de l'écologie</p>
-
-        </div>
-        <div class="col-sm-4">
-            <img src="assets/EQUIPE_SPORT_FILLES.jpg" class="image-equipe rounded mx-auto d-block" alt="image">
+    <div class="row">
+        <div class="col-sm-4 align-center">
+            <img src="assets/EQUIPE_SPORT_FILLES.jpg" class="image-equipe" alt="image">
         </div>
         <div class="col-sm-4">
             <h6 class="align-self-center text-3-3"><strong>Coaching Collectif:</strong></h6>
@@ -206,129 +167,69 @@
             </p>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="background-1 rounded mx-auto d-block">
-                <div class="text-seneque">
-                    <h5>La vie ce n'est pas attendre que les orages passent<br>C'est d'apprendre à danser sous la
-                        pluie<br>
-                    </h5>
-                    <h5>Sénèque</h5>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="row">
         <div class="col-sm-4">
-            <img src="assets/BRAS_DE_FER.jpg" class="image-bras rounded mx-auto d-block" alt="image">
-            <p class="text-center-1">Un coaching bousculant</p>
+            <img src="assets/OSER.jpg" class="image-oser" alt="image">
         </div>
-        <div class="col-sm-4">
-            <img src="assets/OSER.jpg" class="image-oser rounded mx-auto d-block" alt="image">
-        </div>
-        <div class="col-sm-4">
-            <img src="assets/DONNER_LA_MAIN-1.jpg" class="image-main-1 rounded mx-auto d-block" alt="image">
-        </div>
-    </div>
-    <div class="row text-coach">
         <div class="col-sm-4 ">
-            <div class=" align-self-center text-center-2">
-                <h5><strong>COACHE & VOUS</strong></h5>
-                <p><strong>Un accompagnement dans le domaine professionnel</strong></p>
-                <p>Le coaching individuel : coaching de Dirigeants de managers, de chefs de projet,
+            <div class=" text-justify">
+                <p class="text-acc>Un accompagnement dans le domaine professionnel,
+                Le coaching individuel : coaching de Dirigeants de managers, de chefs de projet,
                     de leader de transformation...</p>
                 <p>Le coaching collectif : équipe opérationnelle, équipe métiers ou équipe
-                    transverse</p>
-                <h6><strong>Et dans le domaine personnel</strong></h6>
-                <p>Le coaching de vie ou privé auprès :</p>
-                <p>D'enfant à partir de l'âge de 10 ans, d'adultes de tous âges, de famille, de
-                    couple</p>
+                    transverse. Et dans le domaine personnel : Le coaching de vie ou privé auprès :
+                d'enfant à partir de l'âge de 10 ans, d'adultes de tous âges, de famille, de couple</p>
             </div>
-        </div>
-        <div class="col-sm-8">
-            <img src="assets/RIVIERE_ET_HIBOU.jpg" class="image-rivière rounded mx-auto d-block" alt="image">
-
-            <img src="assets/pointe-hoc.jpg" class="image-pointe rounded mx-auto d-block" alt="image">
-
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 align-center">
-            <h4 class=" text-center fin">FINALITE DU COACHING</h4>
-            <h5 class="text-center"><p>Atteindre des objectifs</p></h5>
-            <h3 class="text-center text-reussi">R E U S S I R</h3>
-        </div>
+          <div class="col-sm-12 align-center">
+                    <h4 class=" text-center fin">FINALITE DU COACHING</h4>
+                    <h5 class="text-center"><p>Atteindre des objectifs</p></h5>
+                    <h3 class="text-center text-reussi">R E U S S I R</h3>
+          </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-            <img src="assets/SAUT_ANNEE_ANNEE.jpg" class="image-saut rounded mx-auto d-block" alt="image">
-        </div>
-    </div>
-    <div class="container">
-        <h5 class="text-laisser">Laisser un commentaire</h5>
-        <p>Votre adresse de messagerie ne sera pas publiée. Les champs obligatoires sont indiqués avec *</p>
-        <form>
-            <div class="form-group">
-                <label for="comment">Commentaire:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
-            </div>
-        </form>
-        <form>
-            <div class="form-group">
-                <label for="usr">Nom:</label>
-                <input type="text" class="form-control" id="usr">
-            </div>
-            <div class="form-group">
-                <label for="pwd">E-mail:</label>
-                <input type="password" class="form-control" id="pwd">
-            </div>
-        </form>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">Enregistrer mon nom, mon e-mail.</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">Prévenez-moi de tous les nouveaux commentaires par e-mail.</label>
-        </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">Prévenez-moi de tous les nouveaux articles par e-mail.</label>
-        </div>
-        <button type="button" class="btn btn-info">Poster le commentaire</button>
-    </div>
-</div>
-
-<div class="page-footer font-small  pt-4">
-    <div class="Degrade">
-        <div class="container-fluid text-center text-md-left">
-            <div class="row">
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <h6 class="text-uppercase a">Coache & Vous</h6>
-                    <h6 class="a">Mme Zohra Morin</h6>
-                    <p class="a">Coache professionnelle Certifiée CIC Paris - Diplôme Etat RNCP<br>Psychologue du travail N° ADELI
-                        <br>Consultante en expertise dans l'accompagement RH</p>
+                <div class="col-sm-12">
+                    <img src="assets/SAUT_ANNEE_ANNEE.jpg" class="image-saut" alt="image">
                 </div>
-                <hr class="clearfix w-100 d-md-none pb-3">
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <h6 class="text-uppercase a">A PROPOS DE</h6>
+    </div>
 
-                    <ul class="list-unstyled">
-                        <li>
-                            <a class=>Mentions légales<br>Politique de confidentialité<br> Politique des cookies<br>Plan du
-                                site</a>
-                        </li>
-                    </ul>
+        <div class="page-footer font-small  pt-4">
+            <div class="Degrade">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-6 mt-md-0 mt-3">
+                            <h6 class="text-uppercase a">Coache & Vous</h6>
+                            <h6 class="a">Mme Zohra Morin</h6>
+                            <p class="a">Coache professionnelle Certifiée CIC Paris - Diplôme Etat RNCP<br>Psychologue
+                                du
+                                travail N° ADELI
+                                <br>Consultante en expertise dans l'accompagement RH</p>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                        <div class="col-md-3 mb-md-0 mb-3">
+                            <h6 class="text-uppercase a">A PROPOS DE</h6>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class=>Mentions légales<br>Politique de confidentialité<br> Politique des cookies<br>Plan
+                                        du
+                                        site</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-copyright text-center py-3 a">© 2019 Copyright:
+                        <a class="a">Coache & Vous</a>
+                    </div>
+
                 </div>
             </div>
-
-
-            <div class="footer-copyright text-center py-3 a">© 2019 Copyright:
-                <a class="a">Coache & Vous</a>
-            </div>
-
         </div>
-    </div>
+
 </div>
-
-
 </body>
 </html>
