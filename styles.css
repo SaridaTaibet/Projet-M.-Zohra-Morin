@@ -102,6 +102,7 @@ h2 {
 
 .text-coach {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .text-laisser {
     margin-top: 3rem;
@@ -139,24 +140,23 @@ h2 {
     margin-top: 2rem;
     width: 300px;
     height: 250px;
-    margin-left: 5rem !important;
-    box-shadow: -1px 2px 2px 1px blue,
-    -1px 2px 5px rgba(0, 0, 255, 0.6) inset;
+    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
 }
+
 .image-oser {
     margin-top: 2rem;
     width: 300px;
     height: 250px;
-    box-shadow: -1px 2px 2px 1px blue,
-    -1px 2px 5px rgba(0, 0, 148, 0.6) inset;
+    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
 }
 .image-main-1 {
     margin-top: 2rem;
     width: 300px;
     height: 250px;
-    margin-left: -2rem !important;
-    box-shadow: -1px 2px 2px 1px blue,
-    -1px 2px 5px rgba(0, 0, 148, 0.6) inset;
+    box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
+    -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
 }
 
 .image-rivière {
@@ -206,12 +206,20 @@ h2 {
 
 .page-footer {
     margin-top: 4rem;
-    background-color: #17A2B8;
+    background-color: #17546a;
 }
 .a {
-    color: black ;
-
+    color: white ;
 }
+
 .text-uppercase-1 {
     margin-left: 14rem;
+}
+
+
+.list-unstyled {
+    color : white;
+}
+.a {
+    color : white;
 }
