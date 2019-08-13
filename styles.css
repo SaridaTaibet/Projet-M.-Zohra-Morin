@@ -2,7 +2,7 @@
 h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     margin-left: 3px;
-    color : black;
+    color: black;
     text-shadow: 5px 5px 5px #aaa;
     -webkit-background-clip: text;
     text-align: center;
@@ -29,13 +29,32 @@ h2 {
 .navbar-brand {
     margin-left: 2rem;
 }
+
 .text-left-1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.text-action{
+.text-action-1 {
     padding-top: 5%;
     padding-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-action {
+    padding-top: 5%;
+    padding-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-beoc {
+    padding-top: 1rem;
+    margin-left: 7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-be {
+    margin-left: 7rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 .text-1 {
@@ -45,40 +64,40 @@ h2 {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.text-2 {
-    margin-left: 7rem;
-}
-
 .p {
     margin-bottom: 0;
+
 }
 
 .text-3-1 {
     font-family: 'Satisfy', cursive;
-    margin-left: 1rem;
+    color: #0479c9;
+
     margin-top: 6rem;
 }
 
 .text-3-2 {
     font-family: 'Satisfy', cursive;
-    margin-left: 1rem;
+
 
 }
 
 .text-3-3 {
     font-family: 'Satisfy', cursive;
-    margin-left: 4rem;
+    color: #0479c9;
     margin-top: 8rem;
 }
 
 .text-3-4 {
     font-family: 'Satisfy', cursive;
-    margin-left: 4rem;
+
 }
 
 
-.text-beoc {
+.text-roosevelt {
+    font-family: 'Satisfy', cursive;
     padding-top: 1rem;
+    color: white;
 }
 
 .text-4 {
@@ -86,13 +105,9 @@ h2 {
     margin-top: 7rem;
 }
 
-.text-acc {
-    margin-top: 4rem;
-
-}
-
-.text-center-2 {
-    margin-left: 9rem;
+.text-reu {
+    font-family: 'Montserrat', sans-serif;
+    color: #0479c9;
 }
 
 
@@ -101,15 +116,15 @@ h2 {
     text-align: center;
     padding-top: 1rem;
 }
+.text-final {
+    font-family: 'Montserrat', sans-serif;;
+}
 
 .text-coach {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.text-laisser {
-    margin-top: 3rem;
-}
 
 .row-text-2 {
     margin-top: 3rem;
@@ -119,14 +134,12 @@ h2 {
 .image-donner5-1 {
     width: 250px;
     height: 400px;
-    margin-left: 2rem !important;
+    padding-left: 2rem;
 
 }
 
 
 .image-equipe {
-    width: 250px;
-    height: 400px;
     margin-top: 2rem;
     margin-left: 2rem;
 }
@@ -146,13 +159,7 @@ h2 {
     -1px 2px 5px rgba(255, 255, 255, 0.6) inset;
 }
 
-.image-oser {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    width: 300px;
-    height: 250px;
 
-}
 .image-main-1 {
     margin-top: 2rem;
     width: 300px;
@@ -175,11 +182,12 @@ h2 {
     box-shadow: -1px 2px 2px 1px rgba(0, 0, 0, 0.7),
     -1px 2px 5px rgba(76, 251, 255, 0.6) inset;
 }
+
 .image-saut {
-    width: 900px;
-    height: 400px;
+    width: 100%;
 }
-.background{
+
+.background {
     background: url("assets/dt143_manche_roches_de_ham_br.jpg");
     background-size: cover;
     width: 100%;
@@ -198,14 +206,14 @@ h2 {
 }
 
 
-
-
 .page-footer {
     margin-top: 4rem;
     background-color: #17546a;
 }
+
 .a {
-    color: white ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .text-uppercase-1 {
@@ -214,10 +222,11 @@ h2 {
 
 
 .list-unstyled {
-    color : white;
+    color: white;
 }
+
 .a {
-    color : white;
+    color: white;
 }
 
 
@@ -225,21 +234,3 @@ h2 {
     animation-duration: 4s;
     animation-name: slidein;
 }
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-
-    75% {
-        font-size: 100%;
-        margin-left: 25%;
-        width: 150%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
