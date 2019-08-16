@@ -238,8 +238,13 @@ span {
     background-size: cover;
     height: 500px;
     margin-top: 2rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-landing {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .background-1 {
@@ -327,6 +332,20 @@ span {
 }
 
 .position-text-footer {
+    text-align: center;
 
 }
+.text-accompagnement {
+    color: white;
+    font-size: 10px;
+}
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
