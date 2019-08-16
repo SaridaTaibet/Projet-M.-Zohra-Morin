@@ -5,14 +5,16 @@
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrep 4 Navbar Fixed to Top</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.7.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -23,54 +25,33 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d3607bbb57.js"></script>
+
     <title>Title</title>
 
 </head>
 <body>
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a href="#" class="navbar-brand"><h1><span>C</span>OACHE & <span>V</span>OUS</h1></a>
+        <button type="button" class="navbar-toggler" data-toggle="colVlapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Accueil</a>
+                <a href="#objectif" class="nav-item nav-link">Objectif</a>
+                <a href="#coaching" class="nav-item nav-link">Coaching</a>
+                <a href="#plages horaires" class="nav-item nav-link">Plages Horaires</a>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <a class="navbar-brand"><h1 class="titre">COACHE & VOUS</h1></a>
-
-    <a class="navbar-brand" href="#">Accueil</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#objectif">Objectif</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#coaching">Coaching</a>
-
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                   <a class="dropdown-item" href="#">E-Mail</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="test-piou">
-
-        <i class="fab fa-instagram fa-lg"></i>
-        <i class="fab fa-facebook fa-lg"></i>
-        <i class="fab fa-twitter fa-lg"></i>
-
-    </div>
-</nav>
-
-
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a href="#" class="nav-item nav-link"></a>
+            </div>
+        </div>
+    </nav>
+</div>
 <div class="container-fluid">
-
     <div class="row">
         <div class="col-sm-12">
             <div class="background">
@@ -81,25 +62,32 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-10 text-justify text-action">
-            <h5 class="text-1 text-justify">Un coaching bousculant, lieu d'expression et moyen de se distinguer, de
-                s'affirmer dans sa singularité, être différent comme le sont les autres avec qui vous travaillez, vous
-                vivez en symbiose entre la personne coachée, son mode de visualisation et la coache. Tout est dans la
-                préparation
-                mentale, c'est un travail de réglage. De votre perception du monde intérieur et extérieur.</h5>
+        <div class="col-sm-8 text-justify text-intro">
+            <h5 class="text-1 text-justify">En tant que praticienne coache, j'accompagne de façon personnalisée ou
+                collective, les personnes ou organisations en recherche d'améliorations de leurs compétences et
+                performances. En fonction du profil et de l'âge de la personne coachée, l'accompagnement au niveau
+                professionnel ou privé se fera par le dialogue et par des méthodes adaptées, auprès du client, pour
+                l'aider à construire ses solutions et son épanouissement. En tant que psychologue, spécialiste du
+                psychisme et du comportement humain, j'accompagne par le biais d'évaluation et d'analyses
+                psychologiques,
+                les patients en souffrance psychique, afin de les aider à les dépasser. Grâce à l'écoute et le conseil,
+                je vous aide à mettre en place des actions préventives et curatives, qui permettent de soigner votre
+                souffrance. </h5>
         </div>
     </div>
 
-    <div class="row " id="objectif">
-        <div class="col-sm-6 text-justify text-action" >
+    <div id="objectif" class="smooth"></div>
+
+    <div class="row">
+        <div class="col-sm-6 text-justify">
             <h5 class="text-objectif "><u>Objectif dans les processus proposés</u></h5>
-            <ul>
-                <li class="text-objectif-1">Tout est dans la préparation mentale, c'est un travail de réglage:</li>
-                <li class="text-objectif-1"> De l'image (perception de soi-même)</li>
-                <li class="text-objectif-1"> De la télécommande qui est dans vos mains</li>
-                <li class="text-objectif-1"> De l'expression du dialogue interne et de vos émotions</li>
-                <li class="text-objectif-1"> De votre perception du monde intérieur et extérieur</li>
-                <li class="text-objectif-1">C'est ce qui conditionne vos comportements et votre réussite</li>
+            <ul class="text-objectif-1">
+                <li>Tout est dans la préparation mentale, c'est un travail de réglage:</li>
+                <li> De l'image (perception de soi-même)</li>
+                <li> De la télécommande qui est dans vos mains</li>
+                <li> De l'expression du dialogue interne et de vos émotions</li>
+                <li> De votre perception du monde intérieur et extérieur</li>
+                <li>C'est ce qui conditionne vos comportements et votre réussite</li>
             </ul>
 
         </div>
@@ -107,13 +95,7 @@
             <img class="image-graph" src="assets/graph_coaching_final.png" alt="image">
         </div>
     </div>
-    <div class="row text-justify text-choisissez">
-        <div class="col-sm-10">
-            <h5 class="text-choisir"><u>Choisissez votre coaching</u></h5>
-            <h6 class="text-beoc"> Coaching BEOC : Bousculant, Ethique, Objectifs Concrets. POUR, Un bien-être durable, dans le respect de
-                l'écologie. </h6>
-        </div>
-    </div>
+
 
     <div class="row">
         <div class="col-sm-12">
@@ -124,10 +106,24 @@
             </div>
         </div>
     </div>
-    <div class="row"  id="coaching" >
+    <div id="coaching" class="smooth"></div>
+
+    <div class="row text-justify text-choisissez">
+        <div class="col-sm-10">
+            <h5 class="text-choisir"><u>Choisissez votre coaching</u></h5>
+            <h6 class="text-beoc"> Coaching BEOC : Bousculant, Ethique, Objectifs Concrets. POUR, Un bien-être durable,
+                dans le respect de
+                l'écologie. </h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-domaine-pro">
+            <p>Un accompagement dans le domaine professionnel</p>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-sm-4 coaching-1">
             <img src="assets/DONNER_LA_MAIN-1.jpg" class="image-main-1" alt="image">
-
         </div>
         <div class="col-sm-4 align-self-center text-coach-expli">
             <p class=" text-coach-individuel"><strong>Coaching Individuel:</strong></p>
@@ -140,10 +136,33 @@
             <img src="assets/EQUIPE_SPORT_FILLES.jpg" class="image-equipe" alt="image">
         </div>
         <div class="col-sm-4 align-self-center text-coach-expli">
-            <h6 class="align-self-center text-coach-collectif"><strong>Coaching Collectif:</strong></h6>
-            <p class="align-self-center text-coaching"><strong>Equipe opérationnelle, <br>équipe métiers ou équipe
+            <h6 class="text-coach-collectif"><strong>Coaching Collectif:</strong></h6>
+            <p class="text-coaching"><strong>Equipe opérationnelle, <br>équipe métiers ou équipe
                 transverse.</strong>
             </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 align-self-center text-domaine-perso">
+            <p class="domaine-perso">Et dans le domaine personnel</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 coaching-1 ">
+            <img src="assets/cote-fleurie.jpg" class="image-cote" alt="image">
+        </div>
+        <div class="col-sm-4 align-self-center text-coach-expli ">
+            <p class="coach-vie"><strong>Le coaching de vie ou privé auprès :</strong></p>
+            <p class="text-coaching"><strong>D'enfant à partir de l'âge de 10 ans, d'adultes de tous âges, de famille,
+                de couple</strong></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12  coaching-bousculant">
+            <p>Un coaching bousculant, lieu d'expression et moyen de se distinguer, de
+                s'affirmer dans sa singularité, être différent comme le sont les autres </p>
+            <p>avec qui vous travaillez, vous vivez en symbiose entre la personne coachée, son mode de visualisation et
+                la coache.</p>
         </div>
     </div>
     <div class="row">
@@ -166,51 +185,74 @@
         </div>
     </div>
     <div class="row">
-          <div class="col-sm-12 align-center text-final">
-              <h4 class=" text-center fin"><strong>FINALITE DU COACHING</strong></h4>
-                    <h5 class="text-center"><p>Atteindre des objectifs</p></h5>
-                    <h3 class="text-center text-reussir">R E U S S I R</h3>
-          </div>
+        <div class="col-sm-12 text-center text-final">
+            <h4 class="text-center-fin"><strong>FINALITE DU COACHING</strong></h4>
+            <h5 class="text-center">Atteindre des objectifs</h5>
+            <h3 class="text-center text-reussir">R E U S S I R</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 align-center text-depassement">
+            <img src="assets/SAUT_ANNEE_ANNEE.jpg" class="image-saut" alt="image">
+        </div>
+    </div>
+
+    <div id="plages horaires" class="smooth"></div>
+
+    <div class="row">
+        <div class="col-sm-12 text-justify text-horaires">
+            <p class="plages"><u>Plages Horaires</u></p>
+            <p>Matinée : 10H / 11H30</p>
+            <p>Après-midi : 13H30 / 15H30 / 17H</p>
+            <p>*Tarifs : 50€/consultation</p>
+
+            <p> Ils peuvent varier en fonction de:</p>
+            <ul>
+                <li>Type de soins</li>
+                <li>Nombre de consultations</li>
+                <li>Actes additionnels nécessaires en Cabinet</li>
+            </ul>
+            <p><strong>*Les tarifs sont à titre indicatif par la praticienne.</strong></p>
+            <p><strong>En cas de dépassement, la praticienne en informe son client au préalable.</strong></p>
+        </div>
+    </div>
+    <div class="scrollUp">
+        <a href="#"><i class="fas fa-arrow-circle-up fa-lg"></i></a>
     </div>
     <div class="row">
-                <div class="col-sm-12">
-                    <img src="assets/SAUT_ANNEE_ANNEE.jpg" class="image-saut" alt="image">
+        <div class="page-footer">
+            <div class="container-fluid">
+
+                <div class="col-sm-4 position-text-footer">
+                    <p class="text-upper text-uppercase text-footer">Coache & Vous</p>
+                    <p class="text-footer">Mme Zohra Morin</p>
+                    <p class="text-footer">Coache professionnelle Certifiée CIC Paris - Diplôme Etat RNCP
+                    </p>
+                    <p class="text-footer">Psychologue du travail N° ADELI</p>
+                    <p class="text-footer">Consultante en expertise dans
+                        l'accompagement RH</p>
                 </div>
-    </div>
 
-        <div class="page-footer font-small  pt-4">
-            <div class="Degrade">
-                <div class="container-fluid text-center text-md-left">
-                    <div class="row">
-                        <div class="col-md-6 mt-md-0 mt-3">
-                            <h6 class="text-uppercase a">Coache & Vous</h6>
-                            <h6 class="a">Mme Zohra Morin</h6>
-                            <p class="a">Coache professionnelle Certifiée CIC Paris - Diplôme Etat RNCP<br>Psychologue
-                                du
-                                travail N° ADELI
-                                <br>Consultante en expertise dans l'accompagement RH</p>
-                        </div>
-                        <hr class="clearfix w-100 d-md-none pb-3">
-                        <div class="col-md-3 mb-md-0 mb-3">
-                            <h6 class="text-uppercase a">A PROPOS DE</h6>
 
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a class="a">Mentions légales<br>Politique de confidentialité<br> Politique des cookies<br>Plan du site</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="col-sm-4 position-text-footer">
+                    <p class="text-uppercase text-contact"> coachemoi@outlook.com </p>
+                    <div class="test-piou">
+
+                        <i class="fab fa-instagram fa-lg"></i>
+                        <i class="fab fa-facebook fa-lg"></i>
+                        <i class="fab fa-twitter fa-lg"></i>
+
                     </div>
-
-
-                    <div class="footer-copyright text-center py-3 a">© 2019 Copyright:
-                        <a class="a">Coache & Vous</a>
-                    </div>
-
                 </div>
             </div>
+            <div class="footer-copyright text-center py-3 text-footer">© 2019 Copyright:
+                <a class="text-footer">Coache & Vous</a>
+            </div>
         </div>
-
+    </div>
 </div>
+
+
 </body>
 </html>

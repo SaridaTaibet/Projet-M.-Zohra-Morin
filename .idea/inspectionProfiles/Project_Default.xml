@@ -15,11 +15,17 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="4">
+          <list size="10">
             <item index="0" class="java.lang.String" itemvalue="assets" />
             <item index="1" class="java.lang.String" itemvalue="bg" />
             <item index="2" class="java.lang.String" itemvalue="col-sm-4" />
             <item index="3" class="java.lang.String" itemvalue="background-1" />
+            <item index="4" class="java.lang.String" itemvalue="contact" />
+            <item index="5" class="java.lang.String" itemvalue="navbar-inverse" />
+            <item index="6" class="java.lang.String" itemvalue="navbar" />
+            <item index="7" class="java.lang.String" itemvalue="navbar-fixed-top" />
+            <item index="8" class="java.lang.String" itemvalue="stylesheet" />
+            <item index="9" class="java.lang.String" itemvalue="objectif" />
           </list>
         </value>
       </option>
